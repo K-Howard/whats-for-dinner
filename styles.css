@@ -7,4 +7,31 @@ grey - #95a5a6;
 red - #ee5253
 
 */
+nav {
 
+}
+
+h1 {
+  /* display: flex; */
+  /* text-align: center; */
+}
+
+.main-title {
+  text-align: left;
+}
+
+
+body {
+ background-color: #ee5253
+ /* background-image: url('burger-friends.jpg');  */
+}
+
+.lets-cook {
+  background-color: #0fb9b1
+  border-radius: 20px
+}
+
+#burger-background {
+  height: 100vh;
+  width: 100vh;
+}
