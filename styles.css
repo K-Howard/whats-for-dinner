@@ -1,34 +1,25 @@
 /* font-family: 'Roboto', sans-serif;
-
 COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
 red - #ee5253
-
 */
 nav {
-
 }
 
 h1 {
   font-family: sans-serif;
   /* display: flex; */
-  /* text-align: center; */
-}
-
-.main-title {
   text-align: left;
 }
-.nav-bar {
- display: flex;
- justify-content: center;
- background-color: #0fb9b1
+
+img {
+  height: 100vh;
+  width: 100vh;
+  display: inline-block;
+  justify-content: center;
 }
-
-/* form stuff below */
-/* style="border:#ffffff; background-color:#ffffff; border-width:10px; border-style:outset;"> */
-
 
 body {
  /* background-color: #ee5253 */
@@ -36,10 +27,22 @@ body {
  background-size: 1100px 1100px;
 }
 
+.main-title {
+  /* text-align: left; */
+}
+
+.nav-bar {
+ display: flex;
+ justify-content: center;
+ background-color: #0fb9b1
+}
+/* form stuff below */
+/* style="border:#ffffff; background-color:#ffffff; border-width:10px; border-style:outset;"> */
 .cookpot-pic {
   height: 250px;
   width: 250px;
 }
+
 .add-recipe-button {
   border-radius: 20px
 
@@ -50,10 +53,12 @@ body {
   border-radius: 20px
 }
 
+#lets {
+  background-color: #0fb9b1
+}
+
 #check-box {
  background-color: rgba(225, 225, 225, .9)
- 
-
 }
 
 #lets-cook-button {
@@ -64,16 +69,9 @@ body {
   height: 250px;
   width: 250px;
 }
+
 #cook-pot-pic {
   height: 200px;
   width: 200px;
   background-color: rgba(225, 225, 225, .9)
-}
-
-img {
-  height: 100vh;
-  width: 100vh;
-  display: inline-block;
-  justify-content: center;
-
 }
