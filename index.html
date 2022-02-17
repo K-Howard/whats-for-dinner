@@ -7,43 +7,33 @@
   h1 {text-align: center;}
   p {text-align: center;}
   div {text-align: center;}
+  body {background-image: url("./assets/burger-friends.jpg");}
 </style>
   </head>
-    <title> Din Din </title>
+    <title> Kyles Din Din App </title>
+
   </head>
   <body>
       <nav class="nav-bar">
     <h1 class="main-title"> WHATS FOR DINNER</h1>
-    <button class="cook-pot">ADD A RECIPE</button>
+    <button class="add-recipe-button">ADD A RECIPE</button>
   </nav>
-          <form style="border:#ffffff; background-color:#ffffff; border-width:10px; border-style:outset;">
-            <input type="radio" class="checkbox-round" /> <label for="vehicle1"> Side</label><br>
-            <input type="radio" class="checkbox-round" /> <label for="vehicle2"> Main Dish</label><br>
-            <input type="radio" class="checkbox-round" /> <label for="vehicle3"> Dessert</label><br>
-            <input type="radio" class="checkbox-round" /> <label for="vehicle4"> Entire Meal</label><br>
-            <button class="lets-cook">LETS COOK</button>
-            <img id="burger-background"
-              src="./assets/burger-friends.jpg"
-                alt="burger">
+      <form id="check-box">
+        <h1>What are you looking for?</h1>
+          <input type="radio" class="checkbox-round" /> <label for="vehicle1"> Side</label><br>
+          <input type="radio" class="checkbox-round" /> <label for="vehicle2"> Main Dish</label><br>
+          <input type="radio" class="checkbox-round" /> <label for="vehicle3"> Dessert</label><br>
+          <input type="radio" class="checkbox-round" /> <label for="vehicle4"> Entire Meal</label><br>
+          <button id= "lets-cook-button" class="lets-cook-button">LETS COOK</button>
+</form>
+            <form>
+              <img id="cook-pot-pic" class="cookpot-pic"
+                 src="./assets/cookpot.svg">
+
+                 <button id= "lets" class="lets">LETS</button>
           </form>
-          <img class="cookpot-pic"
-             src="./assets/cookpot.svg">
-        </form>
-    <p> <id="with-an-id"></p>
-    <h1>What are you looking for</h1>
-   <h1 class="look-for">What are you looking for</h1>
-   <button class="cook-pot">other button</button>
-   <form>
- </form>
+    <p id="with-an-id"></p>
   <article>
-    <header>
-        <h1>What's For Dinner?</h1>
-        <h2 class="recipes">recipes </h2>
-        <h1 class="with-a-class"></h1>
-      </header>
-      <nav>
-        <button class="home">Home</button>
-        </nav>
     </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
